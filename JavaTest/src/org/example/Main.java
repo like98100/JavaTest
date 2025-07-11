@@ -75,8 +75,6 @@ public class Main {
         myCar.stop();
         myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());
 
-        System.out.println("--------------------");
-
         myCar.setModel("BMW i7");
         myCar.setYear(2022);
         myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());

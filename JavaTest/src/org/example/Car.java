@@ -49,8 +49,10 @@ public class Car {
 
     public void introduce(String brand, String model, int year)
     {
+        System.out.println("--------------------");
         if(brand != null) System.out.println("차량 브랜드: " + brand);
         if(model != null) System.out.println("차량 모델: " + model);
         if(year != 0) System.out.println("차량 연식: " + year);
+        System.out.println("--------------------");
     }
 }
