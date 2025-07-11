@@ -5,19 +5,19 @@ public class Main {
     //var
 
     //method
-    public static void cal(int num1, int num2)
+    public static void calOper(int num1, int num2)
     {
         System.out.println("num1 + num2: " + num1 + num2);
         System.out.println("num1 % num2: " + num1 % num2);
     }
 
-    public static int plus(int num, int plusValue)
+    public static int plusOper(int num, int plusValue)
     {
         num += plusValue;
         return num;
     }
 
-    public static void equal(int num, int standardNum)
+    public static void equalOper(int num, int standardNum)
     {
         System.out.println(num == standardNum);
     }
@@ -97,14 +97,14 @@ public class Main {
         System.out.println(10+10);
 
         // 산술 연산자 예제
-        cal(5,7);
+        calOper(5,7);
 
         // 대입 연산자 예제
         int x = 5;
-        System.out.println("x: " + plus(x, 3));
+        System.out.println("x: " + plusOper(x, 3));
 
         // 비교 연산자 예제
-        equal(x, 10);
+        equalOper(x, 10);
 
         // 논리 연산자 예제
         logicalOper(5, 3, 10, 5);
