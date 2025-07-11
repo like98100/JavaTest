@@ -5,9 +5,10 @@ public class Main {
     //var
 
     //method
-    public static void add(int num1, int num2)
+    public static void cal(int num1, int num2)
     {
         System.out.println("num1 + num2: "+num1 + num2);
+        System.out.println("num1 % num2: " + num1 % num2);
     }
 
     public static int plus(int num, int plusValue)
@@ -21,7 +22,7 @@ public class Main {
         System.out.println(num == standardNum);
     }
 
-    public static void scoreOper(int num)
+    public static void conditionOper(int num)
     {
         System.out.println((num >=90) ? "A" : "B");
     }
@@ -67,47 +68,57 @@ public class Main {
          //System.out.println("Hello world!");
         System.out.println(10+10);
 
-        add(5,7);
+        // 산술 연산자 예제
+        cal(5,7);
 
+        // 대입 연산자 예제
         int x = 5;
         System.out.println("x: " + plus(x, 3));
 
+        // 비교 연산자 예제
         equal(x, 10);
 
+        // 논리 연산자 예제
         System.out.println((5>3) && (10>5));
 
+        // 증감 연산자 예제
         x++;
         System.out.println("x: " + x);
 
+        // 삼항 연산자 예제
         int score = 85;
-        scoreOper(score);
+        conditionOper(score);
 
+        // 비트 연산자 예제
         int n = 5;
         int m = 3;
         bitOper(n, m);
 
+        // if문 예제
         System.out.println(ifMethod(3) + "입니다.");
 
+        // switch문 예제
         int day = 3;
         switchMethod(day);
 
-        for(int i = 0; i < 3; i++)
-        {
-            x += i;
-            System.out.println("x: " + x);
+        // for문 예제
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
         }
 
-        while(true)
-        {
-            x++;
-            System.out.println("x: " + x);
-            if(x > 20) break;
+        // while문 예제
+        int count = 3;
+        while (count > 0) {
+            System.out.println(count);
+            count--;
         }
 
+        // do while문 예제
+        int num = 0;
         do {
-            x++;
-            System.out.println("x: " + x);
-        } while (x < 25);
+            System.out.println(num);
+            num++;
+        } while (num < 3);
 
     }
 }
