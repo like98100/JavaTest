@@ -23,7 +23,10 @@ public class ListTest {
 
         List<Animal> animalList = new ArrayList<>();
         animalList.add(new Cat());
-        System.out.println(animalList);
+        animalList.add(new Dog());
+        for (Animal animal : animalList) {
+            animal.sound();
+        }
 
     }
 }

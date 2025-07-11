@@ -1,18 +1,17 @@
 package org.example;
 
-public class Cat extends Animal {
+public class Dog extends Animal {
 
     // method
     @Override
     void sound() {
-        System.out.println("야옹");
+        System.out.println("멍멍");
         //super.sound();
     }
 
     public static void main(String[] args){
-        Animal myCat = new Cat();
+        Animal myDog = new Dog();
 
-        myCat.sound();
+        myDog.sound();
     }
-
 }
