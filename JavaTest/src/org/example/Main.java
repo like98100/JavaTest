@@ -73,6 +73,14 @@ public class Main {
         System.out.println("차량 브랜드 : " + myCar.getBrand());
         myCar.move();
         myCar.stop();
+        myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());
+
+        System.out.println("--------------------");
+
+        myCar.setModel("BMW i7");
+        myCar.setYear(2022);
+        myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());
+
     }
 
     public static void calOper(int num1, int num2)
