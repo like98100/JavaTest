@@ -83,6 +83,15 @@ public class Main {
             num--;
         }
     }
+
+    public static void dowhileMethod(int num)
+    {
+        do {
+            System.out.println(num);
+            num++;
+        } while (num < 3);
+    }
+
     public static void main(String[] args) {
          //System.out.println("Hello world!");
         System.out.println(10+10);
@@ -129,10 +138,6 @@ public class Main {
 
         // do while문 예제
         int num = 0;
-        do {
-            System.out.println(num);
-            num++;
-        } while (num < 3);
-
+        dowhileMethod(num);
     }
 }
