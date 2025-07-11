@@ -69,6 +69,12 @@ public class Main {
         }
     }
 
+    public static void forMethod(int num)
+    {
+        for (int i = 0; i < num; i++) {
+            System.out.println(i);
+        }
+    }
     public static void main(String[] args) {
          //System.out.println("Hello world!");
         System.out.println(10+10);
@@ -107,9 +113,7 @@ public class Main {
         switchMethod(day);
 
         // for문 예제
-        for (int i = 0; i < 5; i++) {
-            System.out.println(i);
-        }
+        forMethod(5);
 
         // while문 예제
         int count = 3;
