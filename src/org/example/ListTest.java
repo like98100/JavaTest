@@ -8,23 +8,20 @@ public class ListTest {
     // method
     public static void main(String[] args)
     {
-//        List<String> list = new ArrayList<>();
-//        list.add("Hello");
-//        list.add("World");
-//        System.out.println(list);
-//        for(int i = 0; i < list.size(); i++)
-//        {
-//            System.out.println(i + "번째 아이템: " + list.get(i));
-//        }
-//
-//        List<Animal> animalList = new ArrayList<>();
-//        animalList.add(new Cat());
-//        animalList.add(new Dog());
-//        for (Animal animal : animalList) {
-//            animal.sound();
-
         createIntList(9);
 
+    }
+
+    public static void createStringList()
+    {
+        List<String> list = new ArrayList<>();
+        list.add("Hello");
+        list.add("World");
+        System.out.println(list);
+        for(int i = 0; i < list.size(); i++)
+        {
+            System.out.println(i + "번째 아이템: " + list.get(i));
+        }
     }
 
     public static void createIntList(int num)
@@ -38,4 +35,14 @@ public class ListTest {
         for(int value: intList) System.out.println(value);                             // for each
     }
 
+    public static void createAnimalList()
+    {
+        List<Animal> animalList = new ArrayList<>();
+        animalList.add(new Cat());
+        animalList.add(new Dog());
+        for (Animal animal : animalList) {
+            animal.sound();
+        }
     }
+
+}
