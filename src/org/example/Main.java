@@ -67,17 +67,25 @@ public class Main {
 //        for (int j : arr) {
 //            System.out.println(j);
 //        }
+//
+//        Car myCar = new Car();
+//        myCar.setBrand("BMW");
+//        System.out.println("차량 브랜드 : " + myCar.getBrand());
+//        myCar.move();
+//        myCar.stop();
+//        myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());
+//
+//        myCar.setModel("BMW i7");
+//        myCar.setYear(2022);
+//        myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());
 
-        Car myCar = new Car();
-        myCar.setBrand("BMW");
-        System.out.println("차량 브랜드 : " + myCar.getBrand());
-        myCar.move();
-        myCar.stop();
-        myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());
-
-        myCar.setModel("BMW i7");
-        myCar.setYear(2022);
-        myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());
+        Calculator myCal = new Calculator();
+        int num1 = 10;
+        int num2 = 5;
+        System.out.println(num1 + " + " + num2 + ": " + myCal.addition(num1, num2));
+        System.out.println(num1 + " - " + num2 + ": " + myCal.substraction(num1, num2));
+        System.out.println(num1 + " * " + num2 + ": " + myCal.multicplication(num1, num2));
+        System.out.println(num1 + " / " + num2 + ": " + myCal.division(num1, num2));
 
     }
 
