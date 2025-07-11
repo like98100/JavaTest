@@ -41,17 +41,38 @@ public class Main {
 //        // switch문 예제
 //        int day = 3;
 //        switchMethod(day);
+//
+//        // for문 예제
+//        forMethod(5);
+//
+//        // while문 예제
+//        int count = 3;
+//        whileMethod(count);
+//
+//        // do while문 예제
+//        int num = 0;
+//        dowhileMethod(num);
+//
+//        // 배열 예제
+//        int[] arr = new int[5];
+//
+//        for(int i = 0; i < 5; i++)
+//        {
+//            arr[i] = i;
+//        }
+//        System.out.println(arr[0]); // 0
+//        arr[1] = 10;
+//        System.out.println(arr[1]); // 10
+//        System.out.println(arr.length); // 5
+//        for (int j : arr) {
+//            System.out.println(j);
+//        }
 
-        // for문 예제
-        forMethod(5);
-
-        // while문 예제
-        int count = 3;
-        whileMethod(count);
-
-        // do while문 예제
-        int num = 0;
-        dowhileMethod(num);
+        Car myCar = new Car();
+        myCar.setBrand("BMW");
+        System.out.println("차량 브랜드 : " + myCar.getBrand());
+        myCar.move();
+        myCar.stop();
     }
 
     public static void calOper(int num1, int num2)
