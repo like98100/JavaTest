@@ -27,6 +27,11 @@ public class Main {
         System.out.println((num >=90) ? "A" : "B");
     }
 
+    public static void logicalOper(int num1, int num2, int num3, int num4)
+    {
+        System.out.println((num1 > num2) && (num3 > num4));
+    }
+
     public static void bitOper(int num1, int num2)
     {
         System.out.println(num1&num2);
@@ -79,7 +84,7 @@ public class Main {
         equal(x, 10);
 
         // 논리 연산자 예제
-        System.out.println((5>3) && (10>5));
+        logicalOper(5, 3, 10, 5);
 
         // 증감 연산자 예제
         x++;
