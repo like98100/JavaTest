@@ -33,8 +33,9 @@ public class ListTest {
 
         for(int i = 0; i < num; i++)  intList.add(i+1);                     // 1 ~ num(9) 저장
 
-        System.out.println(intList);                                        // 리스트 전체 출력
-        for(int i = 0; i < num; i++) System.out.println(intList.get(i));    // for문 사용하여 출력
+        System.out.println(intList);                                                    // 리스트 전체 출력
+        for(int i = 0; i < intList.size(); i++) System.out.println(intList.get(i));    // for문 사용하여 출력
+        for(int value: intList) System.out.println(value);                             // for each
     }
 
     }
