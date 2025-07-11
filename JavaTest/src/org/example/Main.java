@@ -75,6 +75,14 @@ public class Main {
             System.out.println(i);
         }
     }
+
+    public static void whileMethod(int num)
+    {
+        while (num > 0) {
+            System.out.println(num);
+            num--;
+        }
+    }
     public static void main(String[] args) {
          //System.out.println("Hello world!");
         System.out.println(10+10);
@@ -117,10 +125,7 @@ public class Main {
 
         // while문 예제
         int count = 3;
-        while (count > 0) {
-            System.out.println(count);
-            count--;
-        }
+        whileMethod(count);
 
         // do while문 예제
         int num = 0;
