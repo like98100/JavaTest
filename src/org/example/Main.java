@@ -79,13 +79,15 @@ public class Main {
 //        myCar.setYear(2022);
 //        myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());
 
-        Calculator myCal = new Calculator();
-        int num1 = 10;
-        int num2 = 5;
-        System.out.println(num1 + " + " + num2 + ": " + myCal.addition(num1, num2));
-        System.out.println(num1 + " - " + num2 + ": " + myCal.substraction(num1, num2));
-        System.out.println(num1 + " * " + num2 + ": " + myCal.multicplication(num1, num2));
-        System.out.println(num1 + " / " + num2 + ": " + myCal.division(num1, num2));
+          Car myCar2 = new Car("kia", "k5", 2023);
+
+//        Calculator myCal = new Calculator();
+//        int num1 = 10;
+//        int num2 = 5;
+//        System.out.println(num1 + " + " + num2 + ": " + myCal.addition(num1, num2));
+//        System.out.println(num1 + " - " + num2 + ": " + myCal.substraction(num1, num2));
+//        System.out.println(num1 + " * " + num2 + ": " + myCal.multicplication(num1, num2));
+//        System.out.println(num1 + " / " + num2 + ": " + myCal.division(num1, num2));
 
     }
 
