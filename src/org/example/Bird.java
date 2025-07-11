@@ -1,5 +1,8 @@
 package org.example;
 
+// 다른 디렉토리(패키지) 내에 있는 참조 파일 선언
+import org.example.top.Flyable;
+
 public class Bird implements Flyable, Walkable {
 
     // method
