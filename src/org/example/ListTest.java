@@ -8,11 +8,12 @@ public class ListTest {
     // method
     public static void main(String[] args)
     {
-        createIntList(9);
+        ListTest listTest = new ListTest();
+        listTest.createIntList(9);
 
     }
 
-    public static void createStringList()
+    public void createStringList()
     {
         List<String> list = new ArrayList<>();
         list.add("Hello");
@@ -24,7 +25,7 @@ public class ListTest {
         }
     }
 
-    public static void createIntList(int num)
+    public void createIntList(int num)
     {
         List<Integer> intList = new ArrayList<>();
 
@@ -35,7 +36,7 @@ public class ListTest {
         for(int value: intList) System.out.println(value);                             // for each
     }
 
-    public static void createAnimalList()
+    public void createAnimalList()
     {
         List<Animal> animalList = new ArrayList<>();
         animalList.add(new Cat());
