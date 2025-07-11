@@ -84,8 +84,8 @@ public class Main {
         int num2 = 5;
         System.out.println(num1 + " + " + num2 + ": " + myCal.addition(num1, num2));
         System.out.println(num1 + " - " + num2 + ": " + myCal.substraction(num1, num2));
-        System.out.println(num1 + " * " + num2 + ": " + myCal.multicplication(num1, num2));
-        System.out.println(num1 + " / " + num2 + ": " + myCal.division(num1, num2));
+        System.out.println(num1 + " * " + num2 + ": " + myCal.multiplication(num1, num2));
+        myCal.division(num1, num2);
 
     }
 
