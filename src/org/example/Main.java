@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
 
     //var
@@ -78,8 +80,8 @@ public class Main {
 //        myCar.setModel("BMW i7");
 //        myCar.setYear(2022);
 //        myCar.introduce(myCar.getBrand(), myCar.getModel(), myCar.getYear());
-
-          Car myCar2 = new Car("kia", "k5", 2023);
+//
+//          Car myCar2 = new Car("kia", "k5", 2023);
 
 //        Calculator myCal = new Calculator();
 //        int num1 = 10;
@@ -88,6 +90,11 @@ public class Main {
 //        System.out.println(num1 + " - " + num2 + ": " + myCal.substraction(num1, num2));
 //        System.out.println(num1 + " * " + num2 + ": " + myCal.multicplication(num1, num2));
 //        System.out.println(num1 + " / " + num2 + ": " + myCal.division(num1, num2));
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("이름을 입력하세요: ");
+        String name = scanner.nextLine();
+        System.out.println("안녕하세요, " + name);
 
     }
 
